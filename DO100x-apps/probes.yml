@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  labels:
+    run: probes
+    app: do100-probes
+  name: probes
+spec:
+  containers:
+  - image: quay.io/redhttraining/do100-probes:external
+    name: probes
+    resources: {}
+  dnsPolicy: ClusterFirst
+  restartPolicy: Always
+status: {}
