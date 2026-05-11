@@ -1,7 +1,9 @@
 *app-config
-*email-generator
-*multi-version
-*name-generator
+
 *network
 *probes
 *setup
+*js
+*json
+*sh
+*ps1
