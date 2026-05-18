@@ -6,7 +6,7 @@ metadata:
     app: app-config
 spec:
   rules:
-    - host: _INGRESS_HOST_
+    - host: s.com
       http:
         paths:
           - path: /
