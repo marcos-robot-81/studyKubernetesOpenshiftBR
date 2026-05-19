@@ -249,3 +249,18 @@ Vamos imaginar que temos duas implementações idênticas, verde e azul. Inicial
 #### A/B
 
 Teremos um conjunto de pods, alguns na versão v1 e outros na v2, e vamos distribuir o fluxo de requisições entre eles. Isso é útil porque podemos testar a v2 à medida que ela é implementada.
+
+#### rolling 
+atualiza gradualmente os servidores, subestituindo a versão antiga pela nova em etapas.
+
+#### receate
+Derrba a versão antiga e sobe a nova de uma vez só, não há coexistecia de versões diferentes.
+
+#### aplicado as estrategias de implemetação 
+
+Para saber qual estrategia esta dendo aplicada pasta digita 
+``` bash 
+    kubectl describe deployment [nome-da-implemetação]
+```
+
+
